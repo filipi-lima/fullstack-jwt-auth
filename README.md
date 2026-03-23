@@ -28,16 +28,16 @@ cd fullstack-jwt-auth
    
 3. Instale as dependências: `npm install`
 
-4. Crie um arquivo `.env` na raiz da pasta `backend` e preencha com suas credenciais:
+4. Crie um arquivo `.env` na raiz da pasta `backend` e preencha com suas credenciais:  
    ```env
    DB_NAME = nome_do_banco
-   DB_USER = root
-   DB_PASS = sua_senha_do_banco
-   DB_HOST = localhost
+   DB_USER = root
+   DB_PASS = sua_senha_do_banco
+   DB_HOST = localhost
    DB_PORT = 3306
-   PORT = 8080
-   NODE_ENV = development
-   SECRET = sua_secret
+   PORT = 8080
+   NODE_ENV = development
+   SECRET = sua_secret
    ```
    
 6. Execute as Migrations para criar as tabelas:
