@@ -60,5 +60,3 @@ cd fullstack-jwt-auth
 4. Inicie a aplicação: `npm run dev`
 
 Veja mais sobre mim e meus projetos no [LinkedIn](https://www.linkedin.com/in/filipi-pinheiro-6434433a6/)
-
-Esse foi o resultado final. O que achou?
