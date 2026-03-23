@@ -30,28 +30,28 @@ cd fullstack-jwt-auth
 
 4. Crie um arquivo `.env` na raiz da pasta `backend` e preencha com suas credenciais:
    ```env
-    DB_NAME = nome_do_banco <br>
-    DB_USER = root <br>
-    DB_PASS = sua_senha_do_banco <br
-    DB_HOST = localhost <br>
-    DB_PORT = 3306 <br>
-    PORT = 8080 <br>
-    NODE_ENV = development <br>
-    SECRET = sua_secret <br>
+   DB_NAME = nome_do_banco
+   DB_USER = root
+   DB_PASS = sua_senha_do_banco
+   DB_HOST = localhost
+   DB_PORT = 3306
+   PORT = 8080
+   NODE_ENV = development
+   SECRET = sua_secret
    ```
    
-5. Execute as Migrations para criar as tabelas:
+6. Execute as Migrations para criar as tabelas:
    ```bash
    npx sequelize-cli db:migrate
    ```
    
-6. Caso queira adicionar usuários fictícios ao banco de dados, execute este código:
+7. Caso queira adicionar usuários fictícios ao banco de dados, execute este código:
    ```bash
    npx sequelize-cli db:seed:all
    ```
    A senha de cada usuário fictício gerado nesse código será "123456789"
    
-7. Inicie o servidor: `npm run dev`
+8. Inicie o servidor: `npm run dev`
 
 ### 3. Configuração do Frontend
 1. Abra um novo terminal e navegue até a pasta do cliente: `cd frontend`
